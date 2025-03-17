@@ -130,7 +130,7 @@
         <p>Traditionele gebinten schuur.</p>
       </div>
       <div class="card">
-        <img src="images/project3.jpg" alt="Overkapping voor de tuin">
+        <img src="detail_nok1.1.jpeg" alt="Overkapping voor de tuin">
         <h3>Project 3</h3>
         <p>Overkapping voor de tuin.</p>
       </div>
