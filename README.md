@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Houtbouw Groningen - Specialist in houtskeletbouw en gebintenbouw in Groningen.">
-  <title>Houtbouw Groningen</title>
+  <meta name="description" content="Houtwerk Schiermonnikoog - Specialist in gebintenbouw en houtskeletbouw op Schiermonnikoog.">
+  <title>Houtbouw Schiermonnikoog</title>
   <link rel="stylesheet" href="style.css">
   <style>
     body {
@@ -48,6 +48,11 @@
       border-radius: 8px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       width: 250px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
     }
     footer {
       text-align: center;
@@ -55,11 +60,31 @@
       background-color: #333;
       color: white;
     }
+    .projecten {
+      padding: 20px;
+      text-align: center;
+    }
+    .contact {
+      padding: 20px;
+      text-align: center;
+    }
+    input, textarea {
+      width: 80%;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Houtbouw Groningen</h1>
+    <h1>Houtwerk Schiermonnikoog</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="projecten.html">Projecten</a>
@@ -68,20 +93,20 @@
   </header>
 
   <section class="hero">
-    <h2>Ambachtelijke Houtbouw in Groningen</h2>
-    <p>Gespecialiseerd in houtskeletbouw en gebintenbouw.</p>
+    <h2>Ambachtelijke Houtbouw op Schiermonnikoog</h2>
+    <p>Gespecialiseerd in gebintenbouw en houtskeletbouw.</p>
   </section>
 
   <section class="diensten">
     <h2>Onze diensten</h2>
     <div class="cards">
       <div class="card">
-        <h3>Houtskeletbouw</h3>
-        <p>Duurzaam en op maat gemaakt.</p>
+        <h3>Gebintenbouw</h3>
+        <p>Duurzaam en authentiek handwerk.</p>
       </div>
       <div class="card">
-        <h3>Gebintenbouw</h3>
-        <p>Authentieke houten constructies.</p>
+        <h3>Houtskeletbouw</h3>
+        <p>Duurzaam en op maat gemaakte constructies.</p>
       </div>
       <div class="card">
         <h3>Schuren & Overkappingen</h3>
@@ -90,8 +115,41 @@
     </div>
   </section>
 
+  <section class="projecten">
+    <h2>Onze Projecten</h2>
+    <p>Bekijk hier een selectie van afgeronde projecten.</p>
+    <div class="cards">
+      <div class="card">
+        <img src="images/project1.jpg" alt="Gebintconstructie met houtskeletbouw">
+        <h3>Project 1</h3>
+        <p>Gebintconstructie met houtskeletbouw.</p>
+      </div>
+      <div class="card">
+        <img src="images/project2.jpg" alt="Traditionele gebinten schuur">
+        <h3>Project 2</h3>
+        <p>Traditionele gebinten schuur.</p>
+      </div>
+      <div class="card">
+        <img src="images/project3.jpg" alt="Overkapping voor de tuin">
+        <h3>Project 3</h3>
+        <p>Overkapping voor de tuin.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Neem contact op voor een vrijblijvende offerte.</p>
+    <form>
+      <input type="text" placeholder="Naam" required><br>
+      <input type="email" placeholder="E-mail" required><br>
+      <textarea placeholder="Bericht" rows="4"></textarea><br>
+      <button type="submit">Verstuur</button>
+    </form>
+  </section>
+
   <footer>
-    <p>&copy; 2024 Houtbouw Groningen</p>
+    <p>&copy; 2025 Houtwerk Schiermonnikoog</p>
   </footer>
 </body>
 </html>
