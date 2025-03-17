@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Houtwerk Schiermonnikoog - Specialist in gebintenbouw en houtskeletbouw op Schiermonnikoog.">
   <title>Houtwerk Schiermonnikoog</title>
-  <img src=ik.jpg>
   <link rel="stylesheet" href="style.css">
   <style>
     body {
@@ -85,7 +84,7 @@
 </head>
 <body>
   <header>
-    <h1>Houtwerk Schiermonnikoog</h1>
+    <img src="images/houtwerk simpel v2 klaar.pdf">
     <nav>
       <a href="index.html">Home</a>
       <a href="projecten.html">Projecten</a>
