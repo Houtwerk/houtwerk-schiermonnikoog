@@ -24,7 +24,7 @@
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  width: 150px;
+  width: 250px;
   height: auto;
   z-index: 10;
 }
