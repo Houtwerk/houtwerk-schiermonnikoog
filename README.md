@@ -15,21 +15,21 @@
       color: #333;
     }
    header {
-  background-image: url('images/header-bg.jpg');
-  background-size: cover; /* Zorgt ervoor dat de afbeelding de hele header bedekt */
-  background-position: center; /* Centreert de afbeelding */
-  background-repeat: no-repeat; /* Voorkomt herhaling van de afbeelding */
-  height: 250px; /* Pas de hoogte aan naar wens */
+  background-image: url('images/houtwerk simpel v2 klaar.pdf');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white; /* Zorgt ervoor dat tekst goed zichtbaar blijft */
+  color: white;
 }
 
 header h1 {
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparante achtergrond voor leesbaarheid */
+  background: rgba(0, 0, 0, 0.5); 
   padding: 10px;
   border-radius: 5px;
 }
