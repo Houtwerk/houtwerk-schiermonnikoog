@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Houtwerk Schiermonnikoog - Specialist in gebintenbouw en houtskeletbouw op Schiermonnikoog.">
+  <meta name="description" content="Houtwerk Schiermonnikoog - traditioneel gebintenbouw op Schiermonnikoog.">
   <title>Houtwerk Schiermonnikoog</title>
   <link rel="stylesheet" href="style.css">
   <style>
@@ -105,8 +105,8 @@
   </header>
 
   <section class="hero">
-    <h2>Ambachtelijk Houtbouw op Schiermonnikoog</h2>
-    <p>Gespecialiseerd in traditioneel gebintenbouw.</p>
+    <h2>Traditionele Houtbouw op Schiermonnikoog</h2>
+    <p>Gespecialiseerd in gebintenbouw.</p>
   </section>
 
   <section class="diensten">
