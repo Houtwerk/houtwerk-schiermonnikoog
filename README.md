@@ -14,12 +14,25 @@
       background-color: #f9f9f9;
       color: #333;
     }
-    header {
-      background-color: #333;
-      color: white;
-      padding: 10px 0;
-      text-align: center;
-    }
+   header {
+  background-image: url('images/header-bg.jpg');
+  background-size: cover; /* Zorgt ervoor dat de afbeelding de hele header bedekt */
+  background-position: center; /* Centreert de afbeelding */
+  background-repeat: no-repeat; /* Voorkomt herhaling van de afbeelding */
+  height: 250px; /* Pas de hoogte aan naar wens */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; /* Zorgt ervoor dat tekst goed zichtbaar blijft */
+}
+
+header h1 {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparante achtergrond voor leesbaarheid */
+  padding: 10px;
+  border-radius: 5px;
+}
     nav a {
       color: white;
       margin: 0 15px;
@@ -84,13 +97,13 @@
 </head>
 <body>
   <header>
-    <img src="images/houtwerk simpel v2 klaar.pdf">
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="projecten.html">Projecten</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+  <h1>Houtwerk Schiermonnikoog</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projecten.html">Projecten</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
   <section class="hero">
     <h2>Ambachtelijke Houtbouw op Schiermonnikoog</h2>
