@@ -20,11 +20,14 @@
       overflow: hidden;
     }
     .logo {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      width: 120px;
-      height: auto;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: auto;
+  z-index: 10;
+}
     }
     .banner {
       width: 100%;
