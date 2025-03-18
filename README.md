@@ -41,7 +41,7 @@
       object-fit: cover;
       position: absolute;
       opacity: 0;
-      transition: opacity 1s ease-in-out;
+      transition: opacity 10s ease-in-out;
     }
     .banner img.active {
       opacity: 1;
@@ -53,7 +53,7 @@
       text-align: center;
     }
     nav a {
-      color: white;
+      color: coolgrey6;
       margin: 0 15px;
       text-decoration: none;
     }
@@ -108,7 +108,7 @@
   
   <section class="section">
     <h2>Traditioneel gebintenbouw op Schiermonnikoog</h2>
-    <p>Gespecialiseerd in gebintenbouw.</p>
+    <p>Gespecialiseerd in gebintenbouw voor grote en kleine projecten.</p>
   </section>
   
   <section class="section">
