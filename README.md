@@ -92,9 +92,9 @@
     <img src="images/logo.jpg" alt="Houtwerk Schiermonnikoog Logo" class="logo">
     <div class="banner">
       <img src="images/sfeer.JPG" class="active" alt="Banner 1">
-      <img src="images/detail_nok1.1.jpg" alt="Banner 2">
-      <img src="images/banner3.jpg" alt="Banner 3">
-      <img src="images/banner4.jpg" alt="Banner 4">
+      <img src="images/detail_nok1.1.jpeg" alt="Banner 2">
+      <img src="images/detail_sneeuw_NW1.1.jpg" alt="Banner 3">
+      <img src="images/detail_schoor1.1.jpg" alt="Banner 4">
     </div>
     <nav>
       <a href="index.html">Home</a>
@@ -104,7 +104,7 @@
   </header>
   
   <section class="section">
-    <h2>Traditionele Houtbouw op Schiermonnikoog</h2>
+    <h2>Traditioneel gebintenbouw op Schiermonnikoog</h2>
     <p>Gespecialiseerd in gebintenbouw.</p>
   </section>
   
