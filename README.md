@@ -89,7 +89,7 @@
 </head>
 <body>
   <header>
-    <img src="images/logo.png" alt="Houtwerk Schiermonnikoog Logo" class="logo">
+    <img src="images/houtwerk simpel v2 klaar.pdf" alt="Houtwerk Schiermonnikoog Logo" class="logo">
     <div class="banner">
       <img src="images/sfeer.JPG" class="active" alt="Banner 1">
       <img src="images/detail_nok1.1.jpg" alt="Banner 2">
