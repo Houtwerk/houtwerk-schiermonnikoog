@@ -91,8 +91,8 @@
   <header>
     <img src="images/logo.png" alt="Houtwerk Schiermonnikoog Logo" class="logo">
     <div class="banner">
-      <img src="images/banner1.jpg" class="active" alt="Banner 1">
-      <img src="images/banner2.jpg" alt="Banner 2">
+      <img src="images/sfeer.JPG" class="active" alt="Banner 1">
+      <img src="images/detail_nok1.1.jpg" alt="Banner 2">
       <img src="images/banner3.jpg" alt="Banner 3">
       <img src="images/banner4.jpg" alt="Banner 4">
     </div>
