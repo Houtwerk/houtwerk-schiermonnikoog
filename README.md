@@ -41,10 +41,10 @@
       object-fit: cover;
       position: absolute;
       opacity: 0;
-      transition: opacity 10s ease-in-out;
+      transition: opacity 1s ease-in-out;
     }
     .banner img.active {
-      opacity: 1;
+      opacity: 10;
     }
     nav {
       position: absolute;
@@ -53,7 +53,7 @@
       text-align: center;
     }
     nav a {
-      color: coolgrey6;
+      color: white;
       margin: 0 15px;
       text-decoration: none;
     }
