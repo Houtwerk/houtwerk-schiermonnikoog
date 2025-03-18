@@ -14,25 +14,24 @@
       background-color: #f9f9f9;
       color: #333;
     }
-   header {
-  background-image: url('images/houtwerk simpel v2 klaar.pdf');
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-}
-
-header h1 {
-  background: rgba(0, 0, 0, 0.5); 
-  padding: 10px;
-  border-radius: 5px;
-}
+    header {
+      background-image: url('images/header-bg.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 5px;
+    }
     nav a {
       color: white;
       margin: 0 15px;
@@ -97,17 +96,17 @@ header h1 {
 </head>
 <body>
   <header>
-  <h1>Houtwerk Schiermonnikoog</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projecten.html">Projecten</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+    <h1>Houtwerk Schiermonnikoog</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projecten.html">Projecten</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
   <section class="hero">
-    <h2>Ambachtelijke Houtbouw op Schiermonnikoog</h2>
-    <p>Gespecialiseerd in gebintenbouw en houtskeletbouw.</p>
+    <h2>Ambachtelijk Houtbouw op Schiermonnikoog</h2>
+    <p>Gespecialiseerd in traditioneel gebintenbouw.</p>
   </section>
 
   <section class="diensten">
@@ -143,7 +142,7 @@ header h1 {
         <p>Traditionele gebinten schuur.</p>
       </div>
       <div class="card">
-        <img src="detail_nok1.1.jpeg" alt="Overkapping voor de tuin">
+        <img src="images/project3.jpg" alt="Overkapping voor de tuin">
         <h3>Project 3</h3>
         <p>Overkapping voor de tuin.</p>
       </div>
