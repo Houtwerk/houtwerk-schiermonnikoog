@@ -15,7 +15,7 @@
       color: #333;
     }
     header {
-      background-image: url('images/header-bg.jpg');
+      background-image: url('images/houtwerk simpel v2 klaar.pdf');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
