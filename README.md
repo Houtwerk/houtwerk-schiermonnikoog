@@ -28,12 +28,11 @@
       align-items: center;
       max-width: 1200px;
       margin: 0 auto;
-      padding: 0 0px;
+      padding: 0 10px;
     }
 
     .logo img {
       width: 250px;
-      margin-left: -120px;
     }
 
     nav a {
