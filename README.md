@@ -12,41 +12,61 @@
       background-color: #f9f9f9;
       color: #333;
     }
-    header {
+    /* Header met witte lijn bovenaan */
+header {
   position: relative;
-  height: 600px;
-  overflow: hidden;
+  height: 350px; /* Verhoog de hoogte voor de witte lijn */
+  background: rgba(0, 0, 0, 0.5);
+  background-image: url('images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-    }
-    .logo {
-  background-color: transparent;
+  text-align: center;
+}
+header::before {
+  content: "";
   position: absolute;
-  top: -20px;
-  margin: 20px auto;
-  width: 60%;
-  height: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Schaduw effect voor de lijn */
   z-index: 10;
 }
-    .banner {
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  z-index: 20;
+}
+
+.banner {
   width: 100%;
   height: 100%;
   display: flex;
   position: absolute;
-  top: 100px;
-    }
-    .banner img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      position: absolute;
-      opacity: 0;
-      transition: opacity 1s ease-in-out;
-    }
-    .banner img.active {
-      opacity: 10;
-    }
+  top: 50px;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.banner img.active {
+  opacity: 1;
+}
     nav {
       position: absolute;
       bottom: 10px;
