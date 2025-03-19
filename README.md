@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik Mono One:wght@300;400;700&display=swap" rel="stylesheet">
   <style>
     body {
   font-family: 'Rubik Mono One','Montserrat', sans-serif;
@@ -33,7 +33,7 @@
     }
 
     .logo img {
-      width: 250px;
+      width: 350px;
     }
 
     nav a {
