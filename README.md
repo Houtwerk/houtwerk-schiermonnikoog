@@ -32,7 +32,7 @@
     }
 
     .logo img {
-      width: 150px;
+      width: 250px;
     }
 
     nav a {
