@@ -94,19 +94,23 @@
 </head>
 <body>
   <header>
+
+<header>
+  <div class="logo">
     <img src="images/logo_transparant.png" alt="Houtwerk Schiermonnikoog Logo" class="logo">
+  </div>
+   <nav>
+    <a href="#productcategorieen">Productcategorieën</a>
+    <a href="#projecten">Uitgelichte Projecten</a>
+    <a href="#werkwijze">Werkwijze</a>
+    <a href="#contact">Contact</a>
+  </nav>
     <div class="banner">
       <img src="images/sfeer.JPG" class="active" alt="Banner 1">
       <img src="images/detail_nok1.1.jpeg" alt="Banner 2">
       <img src="images/detail_sneeuw_NW1.1.JPG" alt="Banner 3">
       <img src="images/detail_schoor1.1.jpg" alt="Banner 4"> 
   </div>
-  <nav>
-    <a href="#productcategorieen">Productcategorieën</a>
-    <a href="#projecten">Uitgelichte Projecten</a>
-    <a href="#werkwijze">Werkwijze</a>
-    <a href="#contact">Contact</a>
-  </nav>
 </header>
 
   <section class="section">
