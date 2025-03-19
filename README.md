@@ -110,7 +110,7 @@
   <!-- Header met semi-transparante banner -->
   <header>
     <div class="banner">
-      <img src="images/logo.png" alt="Houtwerk Schiermonnikoog Logo" class="logo">
+      <img src="images/logo_transparant.png" alt="Houtwerk Schiermonnikoog Logo" class="logo">
       <nav>
         <a href="#productcategorieen">Productcategorieën</a>
         <a href="#projecten">Uitgelichte Projecten</a>
@@ -123,9 +123,10 @@
   <!-- Foto Collage -->
   <section class="foto-collage">
     <div class="image-gallery">
-      <img src="images/photo1.jpg" alt="Project 1">
-      <img src="images/photo2.jpg" alt="Project 2">
-      <img src="images/photo3.jpg" alt="Project 3">
+      <img src="images/sfeer.JPG.jpg" alt="Project 1">
+      <img src="images/nok_detail1.1.jpg" alt="Project 2">
+      <img src="images/detail_sneeuw_NW1.1.JPG" alt="Project 3">
+      <img src="images/detail_schoor1.1.jpg" alt="Project 4">
     </div>
   </section>
 
