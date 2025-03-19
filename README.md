@@ -26,7 +26,7 @@
   position: absolute;
   top: -20px;
   margin: 20px auto;
-  width: 150px;
+  width: 50%px;
   height: auto;
   z-index: 10;
 }
