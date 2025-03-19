@@ -33,6 +33,7 @@
 
     .logo img {
       width: 250px;
+      margin-left: -20px;
     }
 
     nav a {
