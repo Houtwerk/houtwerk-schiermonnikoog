@@ -25,7 +25,7 @@
     .logo {
   background-color: transparent;
   position: absolute;
-  top: -120px;
+  top: -20px;
   margin: 20px auto;
   width: 100%;
   height: auto;
@@ -36,7 +36,7 @@
   height: 100%;
   display: flex;
   position: absolute;
-  top: 10px;
+  top: 100px;
     }
     .banner img {
       width: 100%;
