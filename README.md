@@ -87,7 +87,7 @@
   <section class="banner">
     <div class="carousel">
       <img src="images/sfeer.JPG" class="active" alt="Banner 1">
-      <img src="images/nok_detail1.1.jpg" alt="Banner 2">
+      <img src="images/detail_nok1.1.jpg" alt="Banner 2">
       <img src="images/detail_sneeuw_NW1.1.JPG" alt="Banner 3">
       <img src="images/detail_schoor1.1.jpg" alt="Banner 4">
     </div>
