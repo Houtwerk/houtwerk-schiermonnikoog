@@ -35,7 +35,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 50px;
+  top: 80px;
     }
     .banner img {
       width: 100%;
