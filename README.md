@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
@@ -48,7 +48,7 @@
 
     .banner {
       width: 100%;
-      height: 500px;
+      height: 400px;
       position: relative;
       overflow: hidden;
       margin-top: 80px; 
