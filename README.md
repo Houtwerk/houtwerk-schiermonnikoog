@@ -12,10 +12,9 @@
       background-color: #f9f9f9;
       color: #333;
     }
-    /* Header met witte lijn bovenaan */
 header {
   position: relative;
-  height: 350px; /* Verhoog de hoogte voor de witte lijn */
+  height: 250px;
   background: rgba(0, 0, 0, 0.5);
   background-image: url('images/banner.jpg');
   background-size: cover;
@@ -25,6 +24,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  z-index: 0;
 }
 header::before {
   content: "";
@@ -34,17 +34,17 @@ header::before {
   width: 100%;
   height: 10px;
   background-color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Schaduw effect voor de lijn */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   z-index: 10;
 }
 
 .logo {
   position: absolute;
-  top: 20px;
+  top: 5px; 
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); 
   width: 150px;
-  z-index: 20;
+  z-index: 15; 
 }
 
 .banner {
@@ -52,7 +52,7 @@ header::before {
   height: 100%;
   display: flex;
   position: absolute;
-  top: 50px;
+  top: 50px; 
 }
 
 .banner img {
