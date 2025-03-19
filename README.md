@@ -15,7 +15,7 @@
     }
     header {
   position: relative;
-  height: 700px;
+  height: 500px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
