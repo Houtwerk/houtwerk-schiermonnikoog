@@ -16,7 +16,7 @@
     }
     header {
   position: relative;
-  height: 380px;
+  height: 600px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@
   height: 100%;
   display: flex;
   position: absolute;
-  top: 80px;
+  top: 10px;
     }
     .banner img {
       width: 100%;
