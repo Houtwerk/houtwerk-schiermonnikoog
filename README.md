@@ -24,6 +24,7 @@
     }
     .logo {
   position: absolute;
+  background-color: transparent;
   top: -20px;
   margin: 20px auto;
   width: 250px;
