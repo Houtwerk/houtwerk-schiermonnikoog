@@ -15,25 +15,26 @@
       color: #333;
     }
     header {
-      position: relative;
-      height: 300px;
-      overflow: hidden;
+  position: relative;
+  height: 320px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
     }
     .logo {
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 250px;
+  position: relative;
+  display: block;
+  margin: 20px auto;
+  width: 150px;
   height: auto;
   z-index: 10;
 }
-    }
     .banner {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50px;
     }
     .banner img {
       width: 100%;
