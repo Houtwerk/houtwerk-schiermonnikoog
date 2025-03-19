@@ -92,6 +92,65 @@
       <img src="images/detail_schoor1.1.jpg" alt="Banner 4">
     </div>
   </section>
+<section class="hero">
+    <h2>Traditionele Houtbouw op Schiermonnikoog</h2>
+    <p>Gespecialiseerd in gebintenbouw.</p>
+  </section>
+
+  <section class="diensten">
+    <h2>Onze diensten</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Gebintenbouw</h3>
+        <p>Duurzaam en authentiek handwerk.</p>
+      </div>
+      <div class="card">
+        <h3>Houtskeletbouw</h3>
+        <p>Duurzaam en op maat gemaakte constructies.</p>
+      </div>
+      <div class="card">
+        <h3>Schuren & Overkappingen</h3>
+        <p>Voor tuin, werkplaats of tuinhuis.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projecten">
+    <h2>Onze Projecten</h2>
+    <p>Bekijk hier een selectie van afgeronde projecten.</p>
+    <div class="cards">
+      <div class="card">
+        <img src="images/project1.jpg" alt="Gebintconstructie met houtskeletbouw">
+        <h3>Project 1</h3>
+        <p>Gebintconstructie met houtskeletbouw.</p>
+      </div>
+      <div class="card">
+        <img src="images/project2.jpg" alt="Traditionele gebinten schuur">
+        <h3>Project 2</h3>
+        <p>Traditionele gebinten schuur.</p>
+      </div>
+      <div class="card">
+        <img src="images/project3.jpg" alt="Overkapping voor de tuin">
+        <h3>Project 3</h3>
+        <p>Overkapping voor de tuin.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Neem contact op voor een vrijblijvende offerte.</p>
+    <form>
+      <input type="text" placeholder="Naam" required><br>
+      <input type="email" placeholder="E-mail" required><br>
+      <textarea placeholder="Bericht" rows="4"></textarea><br>
+      <button type="submit">Verstuur</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Houtwerk Schiermonnikoog</p>
+  </footer>
 
   <script>
     let currentIndex = 0;
