@@ -23,8 +23,8 @@
   align-items: center;
     }
     .logo {
-  position: relative;
-  display: block;
+  position: absolute;
+  top: -20px;
   margin: 20px auto;
   width: 150px;
   height: auto;
