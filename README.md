@@ -25,7 +25,7 @@
     .logo {
   background-color: transparent;
   position: absolute;
-  top: -20px;
+  top: -120px;
   margin: 20px auto;
   width: 100%;
   height: auto;
