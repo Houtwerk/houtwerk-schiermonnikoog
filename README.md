@@ -23,8 +23,8 @@
   align-items: center;
     }
     .logo {
-  position: absolute;
   background-color: transparent;
+  position: absolute;
   top: -20px;
   margin: 20px auto;
   width: 250px;
