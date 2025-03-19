@@ -93,8 +93,6 @@
   </style>
 </head>
 <body>
-  <header>
-
 <header>
   <div class="logo">
     <img src="images/logo_transparant.png" alt="Houtwerk Schiermonnikoog Logo" class="logo">
