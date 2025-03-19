@@ -27,7 +27,7 @@
   position: absolute;
   top: -20px;
   margin: 20px auto;
-  width: 50%;
+  width: 100%;
   height: auto;
   z-index: 10;
 }
@@ -35,7 +35,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 350px;
+  top: 150px;
     }
     .banner img {
       width: 100%;
