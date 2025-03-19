@@ -105,14 +105,17 @@
     <a href="#werkwijze">Werkwijze</a>
     <a href="#contact">Contact</a>
   </nav>
-    <div class="banner">
+</header>
+
+<section class="banner">
+  <div class="carousel">
       <img src="images/sfeer.JPG" class="active" alt="Banner 1">
       <img src="images/detail_nok1.1.jpeg" alt="Banner 2">
       <img src="images/detail_sneeuw_NW1.1.JPG" alt="Banner 3">
       <img src="images/detail_schoor1.1.jpg" alt="Banner 4"> 
   </div>
-</header>
 
+</section>
   <section class="section">
     <h2>Traditioneel gebintenbouw op Schiermonnikoog</h2>
     <p>Gespecialiseerd in gebintenbouw voor grote en kleine projecten.</p>
