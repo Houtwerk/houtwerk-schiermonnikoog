@@ -1,157 +1,182 @@
-
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Houtwerk Schiermonnikoog - Traditioneel gebintenbouw">
+  <meta name="description" content="Houtwerk Schiermonnikoog - Specialist in gebintenbouw en houtskeletbouw op Schiermonnikoog.">
+  <link rel="stylesheet" href="style.css">
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background-color: #f9f9f9;
+      color: #333;
     }
-
     header {
-      position: relative;
-      height: 300px;
-      background: rgba(0, 0, 0, 0.5);
-      background-image: url('images/banner.jpg');
-      background-size: cover;
-      background-position: center;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    }
+    .logo {
+  background-color: transparent;
+  position: absolute;
+  top: -20px;
+  margin: 20px auto;
+  width: 60%;
+  height: auto;
+  z-index: 10;
+}
+    .banner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 100px;
+    }
+    .banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+    .banner img.active {
+      opacity: 10;
+    }
+    nav {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
       text-align: center;
     }
-
-    .logo {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      width: 150px;
-    }
-
     nav a {
       color: white;
-      margin: 0 20px;
+      margin: 0 15px;
       text-decoration: none;
-      font-size: 18px;
     }
-
-    .foto-collage {
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      padding: 20px;
+      text-align: center;
+    }
+    .cards {
       display: flex;
       justify-content: center;
-      gap: 10px;
-      margin-top: 20px;
+      gap: 20px;
+      flex-wrap: wrap;
     }
-
-    .image-gallery img {
-      width: 300px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-
-    #houtwerk {
-      text-align: center;
-      padding: 50px;
-      background-color: #fff;
-    }
-
-    #houtwerk h2 {
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
-
-    .text-blok {
-      background-color: #f9f9f9;
+    .card {
+      background-color: white;
       padding: 20px;
       border-radius: 8px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    footer {
-      background-color: #333;
-      color: white;
-      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 250px;
       text-align: center;
     }
-
-    footer form {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    .card img {
+      width: 100%;
+      border-radius: 8px;
     }
-
-    footer input, footer textarea, footer button {
-      margin: 10px;
+    footer {
+      text-align: center;
       padding: 10px;
-      width: 80%;
-      max-width: 400px;
-      font-size: 16px;
-    }
-
-    footer button {
-      background-color: #444;
+      background-color: #333;
       color: white;
-      border: none;
-      cursor: pointer;
-    }
-
-    footer button:hover {
-      background-color: #666;
     }
   </style>
 </head>
 <body>
-  <!-- Header met semi-transparante banner -->
   <header>
+    <img src="images/logo_transparant.png" alt="Houtwerk Schiermonnikoog Logo" class="logo">
     <div class="banner">
-      <img src="images/logo_transparant.png" alt="Houtwerk Schiermonnikoog Logo" class="logo">
-      <nav>
-        <a href="#productcategorieen">Productcategorieën</a>
-        <a href="#projecten">Uitgelichte Projecten</a>
-        <a href="#werkwijze">Werkwijze</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <img src="images/sfeer.JPG" class="active" alt="Banner 1">
+      <img src="images/detail_nok1.1.jpeg" alt="Banner 2">
+      <img src="images/detail_sneeuw_NW1.1.JPG" alt="Banner 3">
+      <img src="images/detail_schoor1.1.jpg" alt="Banner 4">
     </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projecten.html">Projecten</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
-
-  <!-- Foto Collage -->
-  <section class="foto-collage">
-    <div class="image-gallery">
-      <img src="images/sfeer.JPG.jpg" alt="Project 1">
-      <img src="images/nok_detail1.1.jpg" alt="Project 2">
-      <img src="images/detail_sneeuw_NW1.1.JPG" alt="Project 3">
-      <img src="images/detail_schoor1.1.jpg" alt="Project 4">
+  
+  <section class="section">
+    <h2>Traditioneel gebintenbouw op Schiermonnikoog</h2>
+    <p>Gespecialiseerd in gebintenbouw voor grote en kleine projecten.</p>
+  </section>
+  
+  <section class="section">
+    <h2>Onze diensten</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Gebintenbouw</h3>
+        <p>Duurzaam en authentiek handwerk.</p>
+      </div>
+      <div class="card">
+        <h3>Houtskeletbouw</h3>
+        <p>Duurzaam en op maat gemaakte constructies.</p>
+      </div>
+      <div class="card">
+        <h3>Schuren & Overkappingen</h3>
+        <p>Voor tuin, werkplaats of tuinhuis.</p>
+      </div>
     </div>
   </section>
-
-  <!-- Sectie over Houtwerk -->
-  <section id="houtwerk">
-    <h2>Traditioneel Gebintenbouw</h2>
-    <div class="text-blok">
-      <p>Welkom bij Houtwerk Schiermonnikoog, gespecialiseerd in traditioneel gebintenbouw. Wij bieden duurzame, ambachtelijke constructies.</p>
+  
+  <section class="section">
+    <h2>Onze Projecten</h2>
+    <p>Bekijk hier een selectie van afgeronde projecten.</p>
+    <div class="cards">
+      <div class="card">
+        <img src="images/project1.jpg" alt="Gebintconstructie met houtskeletbouw">
+        <h3>Project 1</h3>
+        <p>Gebintconstructie met houtskeletbouw.</p>
+      </div>
+      <div class="card">
+        <img src="images/project2.jpg" alt="Traditionele gebinten schuur">
+        <h3>Project 2</h3>
+        <p>Traditionele gebinten schuur.</p>
+      </div>
+      <div class="card">
+        <img src="images/project3.jpg" alt="Overkapping voor de tuin">
+        <h3>Project 3</h3>
+        <p>Overkapping voor de tuin.</p>
+      </div>
     </div>
   </section>
-
-  <!-- Footer met Contact en Offerte aanvraag -->
+  
+  <section class="section">
+    <h2>Contact</h2>
+    <p>Neem contact op voor een vrijblijvende offerte.</p>
+    <form>
+      <input type="text" placeholder="Naam" required><br>
+      <input type="email" placeholder="E-mail" required><br>
+      <textarea placeholder="Bericht" rows="4"></textarea><br>
+      <button type="submit">Verstuur</button>
+    </form>
+  </section>
+  
   <footer>
-    <div id="contact">
-      <h3>Contact</h3>
-      <p>Wil je een vrijblijvende offerte aanvragen? Neem contact met ons op:</p>
-      <form action="mailto:info@houtwerkschiermonnikoog.nl" method="post" enctype="text/plain">
-        <input type="text" name="naam" placeholder="Naam" required><br>
-        <input type="email" name="email" placeholder="E-mail" required><br>
-        <textarea name="bericht" rows="4" placeholder="Bericht" required></textarea><br>
-        <button type="submit">Offerte Aanvragen</button>
-      </form>
-    </div>
     <p>&copy; 2025 Houtwerk Schiermonnikoog</p>
   </footer>
+
+  <script>
+    let currentIndex = 0;
+    const images = document.querySelectorAll('.banner img');
+    
+    function switchImage() {
+      images[currentIndex].classList.remove('active');
+      currentIndex = (currentIndex + 1) % images.length;
+      images[currentIndex].classList.add('active');
+    }
+    setInterval(switchImage, 3000);
+  </script>
 </body>
 </html>
-
