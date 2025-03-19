@@ -16,7 +16,7 @@
     }
     header {
   position: relative;
-  height: 1350px;
+  height: 350px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@
   position: absolute;
   top: -20px;
   margin: 20px auto;
-  width: 350px;
+  width: 50%;
   height: auto;
   z-index: 10;
 }
@@ -35,7 +35,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 150px;
+  top: 350px;
     }
     .banner img {
       width: 100%;
