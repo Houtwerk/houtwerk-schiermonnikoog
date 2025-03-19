@@ -66,6 +66,59 @@
     .carousel img.active {
       opacity: 1;
     }
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #eee;
+    }
+    .diensten {
+      padding: 20px;
+      text-align: center;
+    }
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
+    .projecten {
+      padding: 20px;
+      text-align: center;
+    }
+    .contact {
+      padding: 20px;
+      text-align: center;
+    }
+    input, textarea {
+      width: 80%;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
   </style>
 </head>
 <body>
