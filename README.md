@@ -6,7 +6,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
   <style>
     body {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Rubik Mono One','Montserrat', sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f4f4f4;
