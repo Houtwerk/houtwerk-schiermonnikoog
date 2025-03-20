@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-   @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Rubikl+Mono+one:wght@300;400;700&display=swap');
 body {
   font-family: 'Oswald', sans-serif;
 } body {
