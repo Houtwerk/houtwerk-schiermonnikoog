@@ -93,7 +93,27 @@
        width: 100%;
        border-radius: 8px;
      }
-
+     .Inspiratie {
+       padding: 20px;
+       text-align: center;
+     }
+     .cards {
+       display: flex;
+       justify-content: center;
+       gap: 20px;
+     }
+     .card {
+       background-color: white;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+       width: 250px;
+       text-align: center;
+     }
+     .card img {
+       width: 100%;
+       border-radius: 8px;
+     }
      #werkwijze {
   text-align: center;
   padding: 50px 20px;
@@ -113,8 +133,6 @@
   max-width: 800px;
   margin: 0 auto;
 }
-
-/* Individuele stap */
 .step {
   display: flex;
   align-items: center;
