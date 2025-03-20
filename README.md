@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
   <style>
-   @import url('https://fonts.googleapis.com/css2?family=Rubikl+Mono+one:wght@300;400;700&display=swap');
 body {
-  font-family: 'Rubik Mono One','Montserrat', sans-serif;
+  font-family: 'Russo One', sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f4f4f4;
@@ -216,7 +216,7 @@ body {
       images[currentIndex].classList.add('active');
     }
 
-    setInterval(switchImage, 3000); // Wissel elke 3 seconden
+    setInterval(switchImage, 5000); // Wissel elke 5 seconden
   </script>
 
 </body>
