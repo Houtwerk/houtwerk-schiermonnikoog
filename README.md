@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?Rye&display=swap" rel="stylesheet">
   <style>
 body {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Rye', sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f4f4f4;
@@ -14,7 +14,7 @@ body {
 
     header {
       background-color: white;
-      padding: 15px 0;
+      padding: 10px 0;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       position: fixed;
       width: 100%;
@@ -147,12 +147,11 @@ body {
     </div>
   </section>
 <section class="hero">
-    <h2>Traditionele Houtbouw op Schiermonnikoog</h2>
-    <p>Gespecialiseerd in gebintenbouw.</p>
+    <h2>Traditionele gebintenbouw op Schiermonnikoog</h2>
   </section>
 
-  <section class="diensten">
-    <h2>Onze diensten</h2>
+  <section class="Productaanbod">
+    <h2>Productaanbod</h2>
     <div class="cards">
       <div class="card">
         <h3>Gebintenbouw</h3>
