@@ -6,8 +6,6 @@
   <style>
    @import url('https://fonts.googleapis.com/css2?family=Rubikl+Mono+one:wght@300;400;700&display=swap');
 body {
-  font-family: 'Oswald', sans-serif;
-} body {
   font-family: 'Rubik Mono One','Montserrat', sans-serif;
       margin: 0;
       padding: 0;
