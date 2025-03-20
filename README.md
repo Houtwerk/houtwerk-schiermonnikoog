@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?Rye&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
   <style>
 body {
   font-family: 'Rye', sans-serif;
@@ -72,7 +72,7 @@ body {
       padding: 20px 20px;
       background-color: #eee;
     }
-    .diensten {
+    .productaanbod {
       padding: 20px;
       text-align: center;
     }
