@@ -128,14 +128,14 @@
 .steps {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   gap: 20px;
   max-width: 800px;
   margin: 0 auto;
 }
 .step {
   display: flex;
-  align-items: center;
+  align-items: left;
   background: #f4f4f4;
   padding: 20px;
   border-radius: 8px;
@@ -152,7 +152,7 @@
   font-weight: bold;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   border-radius: 50%;
   margin-right: 20px;
 }
