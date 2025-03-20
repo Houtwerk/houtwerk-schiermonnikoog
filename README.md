@@ -93,6 +93,63 @@
        width: 100%;
        border-radius: 8px;
      }
+
+     #werkwijze {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+#werkwijze h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Individuele stap */
+.step {
+  display: flex;
+  align-items: center;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+  width: 50px;
+  height: 50px;
+  background: #333;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.step h3 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.step p {
+  margin: 5px 0 0;
+  font-size: 16px;
+  color: #666;
+}
+
      footer {
        text-align: center;
        padding: 10px;
