@@ -68,11 +68,11 @@
      }
      .hero {
        text-align: center;
-       padding: 50px 20px;
+       padding: 20px 20px;
        padding: 20px 20px;
        background-color: #eee;
      }
-     .diensten {
+     .Aanbod {
        padding: 20px;
        text-align: center;
      }
@@ -131,8 +131,10 @@
        </div>
        <nav>
          <a href="#home">Home</a>
-         <a href="#services">Diensten</a>
+         <a href="#services">Aanbod</a>
          <a href="#projects">Projecten</a>
+         <a href="#inspiration">Inspiratie</a>
+         <a href="#Work">Werkwijze</a>
          <a href="#contact">Contact</a>
        </nav>
      </div>
@@ -147,31 +149,30 @@
      </div>
    </section>
  <section class="hero">
-     <h2>Traditionele Houtbouw op Schiermonnikoog</h2>
-     <p>Gespecialiseerd in gebintenbouw.</p>
+     <h2>Traditioneel gebintenbouw op Schiermonnikoog</h2>
    </section>
  
-   <section class="diensten">
+   <section class="Aanbod">
      <h2>Aanbod</h2>
      <div class="cards">
        <div class="card">
          <h3>Gebintenbouw</h3>
-         <p>Duurzaam en authentiek handwerk.</p>
+         <p>Duurzaam, robuust en authentiek handwerk.</p>
        </div>
        <div class="card">
          <h3>Houtskeletbouw</h3>
-         <p>Duurzaam en op maat gemaakte constructies.</p>
+         <p>Op maat gemaakte constructies.</p>
        </div>
        <div class="card">
-         <h3>Schuren & Overkappingen</h3>
+         <h3>Custom houtwerk en reparatie</h3>
          <p>Voor tuin, werkplaats of tuinhuis.</p>
        </div>
      </div>
    </section>
  
    <section class="projecten">
-     <h2>Onze Projecten</h2>
-     <p>Bekijk hier een selectie van afgeronde projecten.</p>
+     <h2>Projecten</h2>
+     <p>Bekijk hier een selectie van huidige en afgeronde projecten.</p>
      <div class="cards">
        <div class="card">
          <img src="images/project1.jpg" alt="Gebintconstructie met houtskeletbouw">
@@ -179,9 +180,9 @@
          <p>Gebintconstructie met houtskeletbouw.</p>
        </div>
        <div class="card">
-         <img src="images/project2.jpg" alt="Traditionele gebinten schuur">
+         <img src="images/project2.jpg" alt="Traditionele gebinten overkapping">
          <h3>Project 2</h3>
-         <p>Traditionele gebinten schuur.</p>
+         <p>Traditionele gebinten overkapping.</p>
        </div>
        <div class="card">
          <img src="images/project3.jpg" alt="Overkapping voor de tuin">
