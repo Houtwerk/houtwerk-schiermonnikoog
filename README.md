@@ -191,6 +191,59 @@
        </div>
      </div>
    </section>
+
+   <section class="Inspiratie">
+     <h2>Inspiratie</h2>
+       <div class="cards">
+       <div class="card">
+         <img src="images/project1.jpg" alt="Woning met traditioneel gebintconstructie">
+         <h3>Woning met traditioneel gebintconstructie</h3>
+         </div>
+       <div class="card">
+         <img src="images/project2.jpg" alt="Garage met overkapping">
+         <h3>Garage met overkapping</h3>
+       </div>
+       <div class="card">
+         <img src="images/project3.jpg" alt="Tuinhuis met eikenrabat">
+         <h3>Tuinhuis met eikenrabatdelen</h3>
+       </div>
+     </div>
+   </section>
+
+   <section id="werkwijze">
+  <h2>Werkwijze</h2>
+  <div class="steps">
+    <div class="step">
+      <div class="step-number">1</div>
+      <h3>Kennismaking</h3>
+      <p>We starten met een vrijblijvend gesprek om uw wensen en ideeën te bespreken.</p>
+    </div>
+
+    <div class="step">
+      <div class="step-number">2</div>
+      <h3>Bespreken van het ontwerp</h3>
+      <p>Het uitwerken van een ontwerp tot alles naar wens is.</p>
+    </div>
+
+    <div class="step">
+      <div class="step-number">3</div>
+      <h3>Offerte traject</h3>
+      <p>Het opstellen van de offerte met alle details en kosten voor uw project.</p>
+    </div>
+
+    <div class="step">
+      <div class="step-number">4</div>
+      <h3>Productie van het project</h3>
+      <p>Het bouwen van de constructie begint in de werkplaats, alles traditioneel.</p>
+    </div>
+
+    <div class="step">
+      <div class="step-number">5</div>
+      <h3>Afleveren en/of plaatsen</h3>
+      <p>De levering en plaatsing van uw constructie op locatie, dat kan in heel Nederland.</p>
+    </div>
+  </div>
+</section>
  
    <section class="contact">
      <h2>Contact</h2>
