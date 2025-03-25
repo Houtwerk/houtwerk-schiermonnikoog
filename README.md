@@ -211,7 +211,7 @@
          <img src="images/logo_transparant.png" alt="Logo">
        </div>
        <nav>
-         <a href="#home">Home</a>
+       <a href="#home">Home</a>
       <a href="#aanbod">Aanbod</a>
       <a href="#projecten">Projecten</a>
       <a href="#inspiratie">Inspiratie</a>
@@ -229,36 +229,6 @@
        <img src="images/detail_schoor1.1.jpg" alt="Banner 4">
      </div>
    </section>
-
-<section id="home">
-  <h2>Welkom bij Houtwerk Schiermonnikoog</h2>
-  <p>Traditionele houtbouw en ambachtelijk vakmanschap.</p>
-</section>
-
-<section id="aanbod">
-  <h2>Ons Aanbod</h2>
-  <p>Bekijk onze verschillende houtbouwmogelijkheden, van gebinten tot schuren.</p>
-</section>
-
-<section id="projecten">
-  <h2>Onze Projecten</h2>
-  <p>Bekijk hier enkele van onze afgeronde houtbouwprojecten.</p>
-</section>
-
-<section id="inspiratie">
-  <h2>Inspiratie</h2>
-  <p>Laat je inspireren door onze eerdere projecten en ontwerpen.</p>
-</section>
-
-<section id="werkwijze">
-  <h2>Onze Werkwijze</h2>
-  <p>Bekijk hoe wij te werk gaan, van kennismaking tot oplevering.</p>
-</section>
-
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Neem contact met ons op voor meer informatie of een offerte.</p>
-</section>
    
  <section class="hero">
      <h2>Traditioneel gebintenbouw op Schiermonnikoog</h2>
