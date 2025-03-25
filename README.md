@@ -114,7 +114,7 @@
        width: 100%;
        border-radius: 8px;
      }
-     #werkwijze {
+    #werkwijze {
   text-align: center;
   padding: 50px 20px;
   background-color: #fff;
@@ -126,21 +126,24 @@
 }
 
 .steps {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
   gap: 20px;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
+
 .step {
-  display: flex;
-  align-items: left;
   background: #f4f4f4;
   padding: 20px;
   border-radius: 8px;
-  width: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.step:hover {
+  transform: translateY(-5px); 
 }
 
 .step-number {
@@ -152,22 +155,20 @@
   font-weight: bold;
   display: flex;
   justify-content: center;
-  align-items: left;
+  align-items: center;
   border-radius: 50%;
-  margin-right: 20px;
+  margin: 0 auto 10px;
 }
 
 .step h3 {
-  font-size: 22px;
-  margin: 0;
+  font-size: 20px;
+  margin: 10px 0;
 }
 
 .step p {
-  margin: 5px 0 0;
   font-size: 16px;
   color: #666;
 }
-
      footer {
        text-align: center;
        padding: 10px;
