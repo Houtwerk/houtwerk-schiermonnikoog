@@ -210,11 +210,11 @@
        </div>
        <nav>
          <a href="#home">Home</a>
-         <a href="#services">Aanbod</a>
-         <a href="#projects">Projecten</a>
-         <a href="#inspiration">Inspiratie</a>
-         <a href="#Work">Werkwijze</a>
-         <a href="#contact">Contact</a>
+         <a href="Aanbod.html">Aanbod</a>
+         <a href="Projecten.html">Projecten</a>
+         <a href="Inspiratie.html">Inspiratie</a>
+         <a href="Werkwijze.html">Werkwijze</a>
+         <a href="Contact.html">Contact</a>
        </nav>
      </div>
    </header>
