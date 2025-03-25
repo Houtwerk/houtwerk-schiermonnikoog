@@ -126,10 +126,11 @@
 }
 
 .steps {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 20px;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -138,6 +139,8 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
   text-align: center;
   transition: transform 0.2s ease-in-out;
 }
@@ -161,7 +164,7 @@
 }
 
 .step h3 {
-  font-size: 20px;
+  font-size: 22px;
   margin: 10px 0;
 }
 
@@ -286,8 +289,8 @@
      </div>
    </section>
 
-   <section id="werkwijze">
-  <h2>Werkwijze</h2>
+<section id="werkwijze">
+  <h2>Onze Werkwijze</h2>
   <div class="steps">
     <div class="step">
       <div class="step-number">1</div>
@@ -298,25 +301,25 @@
     <div class="step">
       <div class="step-number">2</div>
       <h3>Bespreken van het ontwerp</h3>
-      <p>Het uitwerken van een ontwerp tot alles naar wens is.</p>
+      <p>We werken het ontwerp uit en zorgen ervoor dat alles naar wens is.</p>
     </div>
 
     <div class="step">
       <div class="step-number">3</div>
       <h3>Offerte traject</h3>
-      <p>Het opstellen van de offerte met alle details en kosten voor uw project.</p>
+      <p>We stellen een offerte op met alle details en kosten voor uw project.</p>
     </div>
 
     <div class="step">
       <div class="step-number">4</div>
       <h3>Productie van het project</h3>
-      <p>Het bouwen van de constructie begint in de werkplaats, alles traditioneel.</p>
+      <p>Het bouwen van de constructie begint in onze werkplaats.</p>
     </div>
 
     <div class="step">
       <div class="step-number">5</div>
-      <h3>Afleveren en/of plaatsen</h3>
-      <p>De levering en plaatsing van uw constructie op locatie, dat kan in heel Nederland.</p>
+      <h3>Afleveren of plaatsen</h3>
+      <p>We leveren uw constructie af of plaatsen deze op locatie.</p>
     </div>
   </div>
 </section>
