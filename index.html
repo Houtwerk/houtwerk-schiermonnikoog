@@ -1,174 +1,134 @@
 <!DOCTYPE html>
 <html lang="nl">
- <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
-   <style>
- body {
-   font-family: 'Outfit', sans-serif;
-       margin: 0;
-       padding: 0;
-       background-color: #f4f4f4;
-     }
- html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 190px;
-}
-     header {
-       background-color: white;
-       padding: 15px 0;
-       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-       position: fixed;
-       width: 100%;
-       top: 0;
-       left: 0;
-       z-index: 100;
-     }
- 
-     .container {
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       max-width: 1200px;
-       margin: 0 auto;
-       padding: 0 10px;
-     }
- 
-     .logo img {
-       width: 350px;
-       height: auto;
-     }
- 
-     nav a {
-       color: #333;
-       margin-left: 20px;
-       text-decoration: none;
-       font-size: 18px;
-     }
- 
-     nav a:hover {
-       text-decoration: underline;
-     }
- 
-     .banner {
-       width: 100%;
-       height: 400px;
-       position: relative;
-       overflow: hidden;
-       margin-top: 120px;
-     }
- 
-     .carousel img {
-       width: 100%;
-       height: 100%;
-       object-fit: cover;
-       position: absolute;
-       opacity: 0;
-       transition: opacity 1s ease-in-out;
-     }
- 
-     .carousel img.active {
-       opacity: 1;
-     }
-     .hero {
-       font-size: 25px;
-       text-align: center;
-       padding: 20px 20px;
-       padding: 20px 20px;
-       margin-bottom: 150px;
-       background-color: #eee;
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Outfit', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 190px;
+      }
+      header {
+        background-color: white;
+        padding: 15px 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 100;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 10px;
+      }
+      .logo img {
+        width: 350px;
+        height: auto;
+      }
+      nav a {
+        color: #333;
+        margin-left: 20px;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      .banner {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+        margin-top: 120px;
+      }
+      .carousel img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+      }
+      .carousel img.active {
+        opacity: 1;
+      }
+      .hero {
+        font-size: 25px;
+        text-align: center;
+        padding: 20px 20px;
+        margin-bottom: 150px;
+        background-color: #eee;
+      }
+      .Aanbod {
+        padding: 20px;
+        margin-bottom: 150px;
+        text-align: center;
+      }
       
-     }
-     .Aanbod {
-       padding: 20px;
-       margin-bottom: 150px;
-       text-align: center;
-     }
-    .card {
-  width: 250px;
-  height: 300px;
-  text-align: center;
-  padding: 20px;
-  background-color: transparent;
-  color: white;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-size: cover;
-  background-position: center;
-}
+      .cards {
+        display: flex; 
+        justify-content: center;
+        gap: 20px; 
+        flex-wrap: wrap;
+      }
 
-.card-gebintenbouw {
-  background-image: url('images/opbouw_spanten1.1.jpg');
-}
-
-.card-custom {
-  background-image: url('images/sfeer.JPG');
-}
-
-.card-restauratie {
-  background-image: url('images/Hout reparatie 1.1.jpg');
-} 
-    
-
-     .Projecten {
-       padding: 20px;
-       margin-bottom: 150px;
-       text-align: center;
-} 
-.card {
-  width: 250px;
-  height: 300px;
-  text-align: center;
-  padding: 20px;
-  background-color: transparent;
-  color: white; 
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-size: cover;
-  background-position: center;
-}
-
-.card-Gebintconstructie {
-  background-image: url('images/1.JPG');
-}
-
-.card-Overkapping {
-  background-image: url('images/Overkapping1.1.JPG'); 
-}
-
-.card-Proces gebinten {
-  background-image: url('images/werkwijze1.2.JPG');
-}
+      .card {
+        width: 250px;
+        height: 300px;
+        text-align: center;
+        padding: 20px;
+        background-color: transparent;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-size: cover;
+        background-position: center;
+      }
       
-     
-     }
-     .cards {
-       display: flex;
-       justify-content: center;
-       gap: 20px;
-     }
-     .card {
-       background-color: white;
-       padding: 20px;
-       border-radius: 8px;
-       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-       width: 250px;
-       text-align: center;
-     }
-     .card img {
-       width: 100%;
-       border-radius: 8px;
-     }
-    
+      .card-gebintenbouw {
+        background-image: url('images/opbouw_spanten1.1.jpg');
+      }
+      
+      .card-custom {
+        background-image: url('images/sfeer.JPG');
+      }
+      
+      .card-restauratie {
+        background-image: url('images/Hout reparatie 1.1.jpg');
+      }
+
+      .Projecten {
+        padding: 20px;
+        margin-bottom: 150px;
+        text-align: center;
+      }
+      .card-Gebintconstructie {
+        background-image: url('images/1.JPG');
+      }
+      
+      .card-Overkapping {
+        background-image: url('images/Overkapping1.1.JPG');
+      }
+      
+      .card-Proces gebinten {
+        background-image: url('images/werkwijze1.2.JPG');
+      }
     #werkwijze {
   text-align: center;
   padding: 50px 20px;
