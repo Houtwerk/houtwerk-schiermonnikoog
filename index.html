@@ -85,41 +85,64 @@
        margin-bottom: 150px;
        text-align: center;
      }
-     .projecten {
+    .card {
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-gebintenbouw {
+  background-image: url('images/gebintenbouw.jpg');
+}
+
+.card-houtskeletbouw {
+  background-image: url('images/houtskeletbouw.jpg');
+}
+
+.card-custom {
+  background-image: url('images/custom-houtwerk.jpg');
+} 
+    
+
+     .Inspiratie {
        padding: 20px;
-       margin-bottom: 80px;
+       margin-bottom: 150px;
        text-align: center;
-     
-    }
-    .card {   
-      width: 250px;   
-      height: 300px;   
-      text-align: center;   
-      padding: 20px;   
-      background-color: transparent;   
-      color:white;    
-      font-weight: bold;   
-      display: flex;   
-      flex-direction: column;   
-      justify-content: center;   
-      border-radius: 8px;   
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);   
-      background-size: cover;   
-      background-position: center; }  
-   
-    .card-gebintenbouw {   background-color: url('images/handwerk1.1.jpg'); }  
-  
-    .card-houtskeletbouw {   background-image: url('images/houtskeletbouw.jpg'); }  
-   
-    .card-custom {   background-image: url('images/Hout reparatie 1.1.jpg'); } 
-
-    }
+     }
+     .cards {
+       display: flex;
+       justify-content: center;
+       gap: 20px;
+     }
+     .card {
+       background-color: white;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+       width: 250px;
+       text-align: center;
+     }
+     .card img {
+       width: 100%;
+       border-radius: 8px;
+     }
     #werkwijze {
-     text-align: center;
-     padding: 50px 20px;
-     background-color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
 
-     #werkwijze h2 {
+#werkwijze h2 {
   font-size: 32px;
   margin-bottom: 50px;
 }
@@ -177,7 +200,11 @@
        background-color: #333;
        color: white;
      }
-
+     .projecten {
+       padding: 20px;
+       margin-bottom: 80px;
+       text-align: center;
+     }
      .contact {
        padding: 20px;
        margin-top: 80px;
@@ -210,6 +237,7 @@
       <a href="#aanbod">Aanbod</a>
       <a href="#projecten">Projecten</a>
       <a href="#werkwijze">Werkwijze</a>
+      <a href="#inspiratie">Inspiratie</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
@@ -234,7 +262,7 @@
      <div class="cards">
        <div class="card card-gebintenbouw">
       <h3>Gebintenbouw</h3>
-         <p>Woning, tuinhuis, veranda, overkapping of jeojoe</p>
+         <p>Woning, tuinhuis, veranda, overkapping of schuur</p>
        </div>
        <div class="card card-houtskeletbouw">
       <h3>Houtskeletbouw</h3>
@@ -306,7 +334,25 @@
   </div>
 </section>
   
-     <section class="contact">
+    <section class="Inspiratie">
+     <h2 id="inspiratie">Inspiratie</h2>
+       <div class="cards">
+       <div class="card">
+         <img src="images/project1.jpg" alt="Woning met traditioneel gebintconstructie">
+         <h3>Voor inspiratie in traditionele gebinten woningen kan je kijken op <a href="https://www.carpenteroak.com/projects" target="_blank" rel="noopener noreferrer">Carpenteroak.com</a>.</p> </h3>
+         </div>
+       <div class="card">
+         <img src="images/project2.jpg" alt="Garage met overkapping">
+         <h3>Voor inspiratie in garages, tuinhuizen en overkappingen</h3>
+       </div>
+       <div class="card">
+         <img src="images/project3.jpg" alt="Tuinhuis met eikenrabat">
+         <h3>Voor inspiratie in werkwijze en de traditie van gebintenbouw kijk hier, </h3>
+       </div>
+     </div>
+   </section>
+  
+   <section class="contact">
      <h2 id="contact">Contact</h2>
      <p>Neem contact op voor meer informatie of een vrijblijvende offerte.</p>
      <form>
