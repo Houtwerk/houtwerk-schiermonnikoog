@@ -210,7 +210,16 @@
        border: none;
        cursor: pointer;
      }
- 
+ .logo-footer {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.footer-logo {
+  width: 150px;
+  height: auto; 
+}
+      
    </style>
  </head>
  <body>
@@ -325,7 +334,9 @@
    <footer>
      <p>&copy; 2025 Houtwerk Schiermonnikoog</p>
    </footer>
- 
+ <div class="logo-footer">
+  <img src="images/houtwerk_logo.png" alt="Logo onderaan" class="footer-logo">
+</div>
    <script>
      let currentIndex = 0;
      const images = document.querySelectorAll('.carousel img');
