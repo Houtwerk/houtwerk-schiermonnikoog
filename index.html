@@ -85,23 +85,35 @@
        margin-bottom: 150px;
        text-align: center;
      }
-     .cards {
-       display: flex;
-       justify-content: center;
-       gap: 20px;
-     }
-     .card {
-       background-color: white;
-       padding: 20px;
-       border-radius: 8px;
-       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-       width: 250px;
-       text-align: center;
-     }
-     .card img {
-       width: 100%;
-       border-radius: 8px;
-     }
+    .card {
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-gebintenbouw {
+  background-image: url('images/gebintenbouw.jpg');
+}
+
+.card-houtskeletbouw {
+  background-image: url('images/houtskeletbouw.jpg');
+}
+
+.card-custom {
+  background-image: url('images/custom-houtwerk.jpg');
+} 
+    
+
      .Inspiratie {
        padding: 20px;
        margin-bottom: 150px;
@@ -248,16 +260,16 @@
    <section class="Aanbod">
      <h2 id="aanbod">Aanbod</h2>
      <div class="cards">
-       <div class="card">
-         <h3>Gebintenbouw</h3>
+       <div class="card card-gebintenbouw">
+      <h3>Gebintenbouw</h3>
          <p>Woning, tuinhuis, veranda, overkapping of schuur</p>
        </div>
-       <div class="card">
-         <h3>Houtskeletbouw</h3>
+       <div class="card card-houtskeletbouw">
+      <h3>Houtskeletbouw</h3>
          <p>Op maat gemaakte constructies, past perfect bij een gebint constructie.</p>
        </div>
-       <div class="card">
-         <h3>Custom houtwerk en reparatie</h3>
+       <div class="card card-custom">
+      <h3>Custom houtwerk en reparatie</h3>
          <p>Groot en klein maatwerk en reparaties</p>
        </div>
      </div>
